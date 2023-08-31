@@ -17,3 +17,4 @@ async def password(bot, update):
     txt = f"<b>Lɪᴍɪᴛ:</b> {str(limit)} \n<b>Pᴀꜱꜱᴡᴏʀᴅ: <code>{random_value}</code>"
     btn = InlineKeyboardMarkup([[InlineKeyboardButton('Mᴋɴ Bᴏᴛᴢ™️', url='https://t.me/mkn_bots_updates')]])
     await message.edit_text(text=txt, reply_markup=btn, parse_mode=enums.ParseMode.HTML)
+।
